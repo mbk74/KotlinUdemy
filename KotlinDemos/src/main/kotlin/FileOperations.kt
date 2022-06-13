@@ -3,10 +3,10 @@ import java.io.FileWriter
 fun main() {
     print("Write text to file:")
     val str:String = readLine().toString()
-    WriteToFile(str)
+    writeToFile(str)
 }
 
-fun WriteToFile(str:String) {
+fun writeToFile(str:String) {
     try {
         val fo = FileWriter("example.txt", true)
         fo.write(str + "\n")
