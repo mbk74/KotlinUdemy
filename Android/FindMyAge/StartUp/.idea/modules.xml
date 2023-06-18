@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/StartUp.iml" filepath="$PROJECT_DIR$/.idea/StartUp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/StartUp.iml" filepath="$PROJECT_DIR$/StartUp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/StartUp.iml" filepath="$PROJECT_DIR$/.idea/modules/StartUp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/StartUp.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/StartUp.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/StartUp.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/StartUp.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/StartUp.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/StartUp.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/StartUp.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/StartUp.app.unitTest.iml" />
     </modules>
   </component>
 </project>

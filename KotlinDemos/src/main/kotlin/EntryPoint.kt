@@ -17,6 +17,16 @@ class Person(var name:String, var age:Int): Comparable<Person> {
     }
 }
 
+class Sync {
+    fun testMe() {
+        synchronized(this){
+            println("Step1")
+            //return
+        }
+        println("step2")
+    }
+}
+
 fun main(args: Array<String>) {
 //    val geeks = listOf(Person("Fowler", 23), Person("Beck", 2), Person("Evans", 33))
 //    println("Before sort")
@@ -28,7 +38,10 @@ fun main(args: Array<String>) {
 //    for (name in geeks) {
 //        println("Name: ${name.name} Age: ${name.age}")
 //    }
-    isOddOrEven()
+//    isOddOrEven()
+    val t = Sync()
+    t.testMe()
+
 }
 
 fun isOddOrEven() {
